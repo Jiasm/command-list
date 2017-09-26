@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node ."
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,11 @@
     "url": "https://github.com/Jiasm/command-list/issues"
   },
   "homepage": "https://github.com/Jiasm/command-list#readme",
-  "dependencies": {
-    "commander": "^2.11.0"
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^3.9.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.3.0",
+    "eslint-plugin-standard": "^2.0.1"
   }
 }
