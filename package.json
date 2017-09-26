@@ -1,0 +1,27 @@
+{
+  "name": "command-list",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jiasm/command-list.git"
+  },
+  "keywords": [
+    "shell",
+    "node",
+    "commander"
+  ],
+  "author": "jiasm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jiasm/command-list/issues"
+  },
+  "homepage": "https://github.com/Jiasm/command-list#readme",
+  "dependencies": {
+    "commander": "^2.11.0"
+  }
+}
